@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revendedores</title>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/revendedores.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="company-area">
+            <svg class="header__menu-hamburguer" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 7.00012H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1 1H13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1 12.9999H13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="company-area__avatar">
+                ME
+            </div>
+            <span class="company-area__name">
+                Minha Empresa   
+            </span>
+        </div>
+        <div class="nav-user">
+            <div class="help-drop">
+                <button class="drop">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#CDD2EB" stroke="#CDD2EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.09003 9.00002C9.32513 8.33169 9.78918 7.76813 10.4 7.40915C11.0108 7.05018 11.7289 6.91896 12.4272 7.03873C13.1255 7.15851 13.7588 7.52154 14.2151 8.06355C14.6714 8.60555 14.9211 9.29154 14.92 10C14.92 12 11.92 13 11.92 13" stroke="#142159" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 17H12.0094" stroke="#142159" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> 
+                </button>
+                <div class="drop-content">
+                    <div class="drop-content__links">
+                        <a class="drop-content__text" href="#">Central de ajuda</a>
+                        <a class="drop-content__text" href="#">Tutoriais</a>
+                    </div>
+                    <div>
+                        <a class="drop-content__text--active" href="#">Falar com especialista</a>
+                    </div>
+                </div>
+            </div>
+            <div class="notification-drop">
+                <button class="drop">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 8.40096C17.5 6.96853 16.9205 5.59478 15.8891 4.5819C14.8576 3.56903 13.4587 3 12 3C10.5413 3 9.14236 3.56903 8.11091 4.5819C7.07946 5.59478 6.5 6.96853 6.5 8.40096C6.5 14.7021 3.75 16.5024 3.75 16.5024H20.25C20.25 16.5024 17.5 14.7021 17.5 8.40096Z" fill="#CDD2EB" stroke="#CDD2EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.5859 20.1028C13.4248 20.3756 13.1934 20.6021 12.9151 20.7595C12.6368 20.9169 12.3213 20.9998 12.0001 20.9998C11.6789 20.9998 11.3634 20.9169 11.085 20.7595C10.8067 20.6021 10.5754 20.3756 10.4142 20.1028" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="18" cy="3.75" r="3" fill="#F03460"/>
+                    </svg>      
+                </button>
+                <div class="notification-drop-content">
+                    <div class="card">
+                        <div class="card-content"> 
+                            <div class="card-content__notification1">
+                                <h4 class="card-content__notification1__title">
+                                    👋 Bem-vindo(a) a Hubly Retailer
+                                </h4>
+                                <p class="card-content__notification1--text">
+                                    Para uma completa experiência com 
+                                    a Retailer, precisamos que você siga 
+                                    os passos abaixo.
+                                </p>
+                            </div>
+                            <div class="checks">
+                                <div class="check-content">
+                                    <input type="checkbox">
+                                    <label class="checks__text"> Cadastrar Organização</label>
+                                </div>
+
+                                <div class="check-content"> 
+                                    <input type="checkbox">
+                                    <label class="checks__text">Convidar Revendedores</label>
+                                </div>
+                            </div>
+                            <div class="card-content__notification2">
+                                <span class="card-content__notification2--text"> 📈 O seu Relatório Mensal está <br> pronto!</span>
+                                <span class="card-content__notification2--small-text">12 min</span>
+                            </div>
+                            <div class="link">
+                                <a class="link-notification" href="#">Ir para relatórios</a>
+                            </div>
+                        </div>
+                        <div class="card-content__btn">
+                            <button class="btn--text">
+                                Marcar como lidas
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-drop">
+                <img class="user-drop__img" src="../assets/images-icons/photo-user.png" alt="photo-user">
+                <span class="user-drop__user-name">Gustavo Silva</span>
+                <div class="user-drop-content">
+                    <div class="user-drop-content__align">
+                        <div class="user-drop-content__align--text-user">
+                            <span class="user-drop-content--text">Olá, Henrique</span>
+                        </div>
+                        <div class="user-drop-content__align--text-acc">
+                            <span class="user-drop-content--text">Minha conta</span>
+                            <span class="user-drop-content--text">Sair</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <ul class="sidebar__menu"></ul>
+            <div class="sidebar__upgrade-card">
+                <img src="../assets/images-icons/rocket-image-aside.png" alt="rocket image" />
+                <span class="sidebar__upgrade-card--text">
+                    Libere novos recursos
+                    e decole seu negócio
+                </span>
+                <button class="sidebar__upgrade-card--btn">
+                    Faça um upgrade!
+                </button>
+            </div>
+        </aside>
+        <div class="main-content">
+            <div class="information-bar">
+                <div class="information-bar__text">
+                    <svg class="information-bar__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30Z" fill="#F1F2F9" stroke="#F1F2F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 21.6V16" stroke="#425DC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 10.3996H16.012" stroke="#425DC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>
+                        🔥 <strong>Lançamento</strong>  🔥 Nova Ferramenta de Carrinhos Abandonados 😍
+                    </span>
+                </div>
+                <button class="information-bar__btn">
+                    Conheça a nova ferramenta
+                </button>
+            </div>
+            <h1 class="information-bar__title">
+                Resumo de dados
+            </h1>
+            <section class="calendar">
+                <div class="calendar__options">
+                    <div class="calendar__options--active">
+                        <span class="calendar__options--btn calendar__options--text">Últimos 7 dias</span>
+                    </div>
+                    <div class="calendar__options--btn calendar__options--notactive">
+                        <span class="calendar__options--text">Últimos 15 dias</span>
+                    </div>
+                    <div class="calendar__options--btn calendar__options--notactive">
+                        <span class="calendar__options--text">Último mês</span>
+                    </div>
+                    <div class="calendar__options--btn calendar__options--notactive">
+                        <span class="calendar__options--text">Último ano</span>
+                    </div>
+                    <div class="calendar__options--btn calendar__options--notactive">
+                        <span class="calendar__options--text">Personalizado</span>
+                    </div>
+                </div>
+            </section>
+            <small class="text-info-calendar">
+                Exibindo dados do período 1 de novembro à 8 de novembro de 2021 
+            </small>
+
+            <div class="graphic-resellers">
+                <section class="general-report">
+                    <div class="general-report__title">
+                        <img src="../assets/images-icons/graphic-image-general-report.png" alt="graphic" />
+                        <h2>Relatório Geral</h2>  
+                    </div>
+                    <div class="general-report__option">
+                        <ul class="general-report__option--item">
+                            <li class="general-report__option--text" >
+                                <a href="../pages/index.html">
+                                    Vendas  
+                                </a>
+                            </li>
+                            <li class="general-report__option--text">
+                                <a href="../pages/pedidospage.html">
+                                    Pedidos  
+                                </a>
+                            </li>
+                            <li class="general-report__option--text general-report__option--active">
+                                <a href="#">
+                                    Revendedores 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="general-report__data">
+                        <div class="general-report__data--invoice">
+                            <svg class="general-report__data--icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="#F1F2F9"/>
+                                <path d="M24 37.3333C31.3638 37.3333 37.3333 31.3638 37.3333 24C37.3333 16.6362 31.3638 10.6667 24 10.6667C16.6362 10.6667 10.6667 16.6362 10.6667 24C10.6667 31.3638 16.6362 37.3333 24 37.3333Z" fill="#CDD2EB" stroke="#CDD2EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M28 18.6667H22.8889C21.2933 18.6667 20 19.8606 20 21.3333C20 22.8061 21.2933 24 22.8889 24H25.1111C26.7067 24 28 25.1938 28 26.6667C28 28.1395 26.7067 29.3333 25.1111 29.3333H20" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24 16V18.6667" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24 29.3333L24 32" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div class="general-report__data--info">
+                                <span class="general-report__data--info--text1">
+                                    Faturamento
+                                </span>
+                                <span class="general-report__data--info--text2">
+                                    R$ 800.803,00
+                                </span>
+                            </div>
+                        </div>
+                        <div class="general-report__data--invoice">
+                            <svg class="general-report__data--icon" width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.666656" width="48" height="48" rx="12" fill="#F1F2F9"/>
+                                <path d="M17.5 12L13.6667 16.8V33.6C13.6667 34.2365 13.9359 34.847 14.4152 35.2971C14.8944 35.7471 15.5444 36 16.2222 36H34.1111C34.7889 36 35.4389 35.7471 35.9182 35.2971C36.3974 34.847 36.6667 34.2365 36.6667 33.6V16.8L32.8333 12H17.5Z" fill="#CDD2EB" stroke="#CDD2EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.6667 16.8002H36.6667" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M30.2781 21.5999C30.2781 22.8739 29.7396 24.0957 28.7811 24.9965C27.8226 25.8974 26.5226 26.4035 25.167 26.4035C23.8115 26.4035 22.5114 25.8974 21.5529 24.9965C20.5944 24.0957 20.0559 22.8739 20.0559 21.5999" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>               
+                            <div class="general-report__data--info">
+                                <span class="general-report__data--info--text1">
+                                    Vendas totais
+                                </span>
+                                <span class="general-report__data--info--text2">
+                                    1830
+                                </span>
+                            </div>
+                        </div>
+                        <div class="general-report__data--invoice">
+                            <svg class="general-report__data--icon" width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.333313" width="48" height="48" rx="12" fill="#F1F2F9"/>
+                                <path d="M37.8577 27.5374L27.8846 37.5105C27.6262 37.7691 27.3194 37.9743 26.9817 38.1143C26.644 38.2543 26.282 38.3264 25.9164 38.3264C25.5508 38.3264 25.1888 38.2543 24.8511 38.1143C24.5134 37.9743 24.2066 37.7691 23.9482 37.5105L12.5866 26.1621C12.211 25.7869 12 25.2779 12 24.747V13.6667C12 12.5621 12.8954 11.6667 14 11.6667H25.081C25.6114 11.6667 26.1202 11.8774 26.4952 12.2524L37.8577 23.6149C38.3758 24.1361 38.6666 24.8412 38.6666 25.5761C38.6666 26.3111 38.3758 27.0161 37.8577 27.5374Z" fill="#CDD2EB" stroke="#CDD2EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 19.6667H20.0133" stroke="#425DC7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                           
+                            <div class="general-report__data--info">
+                                <span class="general-report__data--info--text1">
+                                    Ticket médio
+                                </span>
+                                <span class="general-report__data--info--text2">
+                                    R$ 437,59
+                                </span>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="graphic-and-resellers"> 
+                        <div class="general-report__data--graphic">
+                            <canvas id="myChart" width= "660px" height="235px"></canvas>
+                    </div>
+                </section>
+                <div class="resellers">
+                    <div class="resellers__title">
+                        <img class="resellers__title--img" src="../assets/images-icons/trofeu.png" alt="trofeu">
+                        <h4>
+                            Ranking de revendedores
+                        </h4>
+                    </div>
+                    <div class="list-resellers">
+                        <ul class="list-resellers__ul"></ul>
+                    </div>
+                    <div class="button-content">
+                        <button class="button-content__btn">Ver todos</button>
+                    </div>
+                </div>
+            </div>
+            <section class="insights-section">
+                <div class="insights-section__title">
+                    <img class="insights-section__title--image" src="../assets/images-icons/eye-image-insight.png" alt="eye image">
+                    <span class="insights-section__title--text">Insights</span>
+                </div>
+                <div class="products-list">
+                    <h3 class="insights-section__h3">
+                        Produtos mais vendidos
+                    </h3>
+                    <div class="insights-section__product">
+                        <div class="insights-section__product--text ">
+                            Produto
+                        </div>
+                        <div class="insights-section__infos">
+                            <div class="insights-section__infos--text insights-section__product--text--width">
+                                Número do Pedido
+                            </div>
+                            <div class="insights-section__infos--text">
+                                Departamento
+                            </div>
+                            <div class="insights-section__infos--text">
+                                Valor
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-container">
+                        <ol class="products"></ol>
+                    </div>
+                    <nav class="products__nav">
+                        <div class="products__nav--quantity">
+                            <span class="products__nav--quantity--text">
+                                Exibindo
+                            </span>
+                            <input class="products__nav--quantity--input" type="number">
+                            <label class="products__nav--quantity--text">produtos por pagina</label>
+                        </div>
+                        <div class="products__nav--pagination">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#F1F2F9"/>
+                                <path d="M13 9L10 12L13 15" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                               
+                            <span class="products__nav--pagination--text">1</span>
+                            <span class="products__nav--pagination--text">2</span>
+                            <span class="products__nav--pagination--text">3</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#F1F2F9"/>
+                                <path d="M10.9999 15L13.9999 12L10.9999 9" stroke="#425DC7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>     
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/productsMoreSold.js"></script>
+    <script src="../scripts/reseller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../scripts/charts/revendedoresgraph.js"></script>   
+</body>
+</html>

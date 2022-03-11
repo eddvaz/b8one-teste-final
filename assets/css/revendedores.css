@@ -1,0 +1,144 @@
+
+.general-report{
+    margin: 0;
+    padding: 0;
+}
+
+.general-report__data{
+    display: none;
+}
+
+.general-report {
+    height: 454px;
+}
+
+.graphic-resellers{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 32px 32px 32px;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.resellers {
+    margin: 16px 24px 24px 0;
+    width: 340px;
+}
+
+.resellers__title{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.resellers__title--img{
+    margin-right: 12px;
+}
+
+.list-resellers {
+    overflow-y: scroll;
+}
+
+.list-resellers__content{
+    display: flex;
+}
+
+.list-resellers__content--order{
+    padding: 12px 16px 12px 0;
+}
+
+.list-resellers__requests{
+    display: flex;
+    padding: 6px;
+}
+
+.list-resellers__requests--text{ 
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    color: #425DC7;
+    background: #F1F2F9;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.list-resellers__requests--info-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list-resellers__requests--info-2{
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+}
+
+.list-resellers__requests--info-2--requets{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #555555;
+}
+
+.list-resellers__requests--info-2--percentage{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #158F2E;
+}
+
+.button-content {
+    height: 62px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.button-content__btn{
+    border: 2px solid #425DC7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #425DC7;
+    width: 98px;
+    height: 40px;
+    margin-top: 24px;
+
+}
+
+@media screen and (max-width: 385px) {
+    .graphic-resellers{
+        flex-direction: column;
+        margin: 16px;
+    }
+
+    .general-report__data--graphic{
+        height: 300px;
+    }
+
+    .resellers{
+        margin: 0;
+        width: 296px;
+    }
+}
