@@ -48,6 +48,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .drop {
     border: none;
     cursor: pointer;
@@ -179,6 +180,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .card-content__notification2--text{
     font-style: normal;
     font-weight: 500;
@@ -271,6 +273,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .user-drop-content__align--text-user{
     margin-bottom: 32px;
 }
@@ -288,7 +291,6 @@
     line-height: 24px;
     color: #333333;
 }  
-
 
 /**********Main***************/
 
@@ -327,6 +329,7 @@ main{
     line-height: 20px;
     letter-spacing: -0.005em;
     text-align: left;
+    cursor: pointer;
 }
 
 .sidebar__upgrade-card{
@@ -450,6 +453,7 @@ main{
 .calendar__options--notactive {
     background: #FFFFFF;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .calendar__options--text{
@@ -458,6 +462,7 @@ main{
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
+    cursor: pointer;
 }
 
 /*********Text Info Calendar********/
@@ -557,13 +562,7 @@ main{
     color: #333333;
 }
 
-/* .general-report__data--graphic{
-    width: 95%;
-    height: 228px;
-} */
-
 /*********Insights**********/
-
 
 .insights-section{
     height: 856px;
@@ -610,8 +609,7 @@ main{
     width: 652px;
     height: 16px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .insights-section__infos{
@@ -652,6 +650,7 @@ main{
 .products-container{
     height: 620px;
 }
+
 .products-list{
     height: 744px;
 }
@@ -734,9 +733,11 @@ main{
     align-items: center;
     gap: 0 8px;
 }
+
 .products__nav--quantity--input{
     width: 64px;
 }
+
 .products__nav--pagination{
     display: flex;
     align-items: center;
@@ -932,7 +933,6 @@ input[type=checkbox]  {
         width: 112px;
     }
 
-
     /*------------------Info Mobile-------------------------*/
     .sidebar{
         display: none;
@@ -955,7 +955,6 @@ input[type=checkbox]  {
     .information-bar__text{
         font-size: 14px;
         width: 290px;
-
     }
 
     .information-bar__btn{
@@ -967,9 +966,11 @@ input[type=checkbox]  {
         margin-left: 16px;
         width: 312px;
     }
+
     .calendar{
         margin-left: 16px;
     }
+
     .calendar__options{
         overflow-x: scroll;
         width: 330px;
@@ -988,7 +989,6 @@ input[type=checkbox]  {
         font-size: 11px;
     }
     
-
     /*------------------General Report Mobile-------------------------*/
     .general-report{
         margin: 16px 16px 16px 16px;
@@ -1036,9 +1036,11 @@ input[type=checkbox]  {
     .insights-section__title{
         margin-bottom: 24px;
     }
+
     .insights-section__h3{
         margin-bottom: 16px;
     }
+
     .insights-section__product{
         display: none;
     }
@@ -1047,7 +1049,6 @@ input[type=checkbox]  {
         height: 100vh;
     }
     
-
     .products__info{
         width: 296px;
     }
